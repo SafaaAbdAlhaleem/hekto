@@ -204,3 +204,40 @@ h3{
         gap: 30px;
     }
 }
+
+.hero{
+background-image: url('./../image/bg.png');
+height:362px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-size: 100%;
+
+}
+
+.hero_content h2{
+    font-weight: 350;
+}
+
+.hero_content{
+color: #151875;
+font-family:'Josefin Sans' ;
+font-size: 20px;
+line-height: 45px;
+
+
+}
+
+.hero_content button{
+background-color: #FB2E86;
+color: #E7E6EF;
+width:163px ;
+height: 49px;
+border: 0;
+font-family:'Josefin Sans' ;
+font-size: 17px;
+margin-top: 20px;
+
+
+}
