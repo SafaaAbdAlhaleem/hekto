@@ -738,3 +738,61 @@ color: #FB4997;
     font-size: 26px;
   }
 }
+
+
+.trending_products{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.all_trending_products{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;  
+}
+
+.trend_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: #F5F6F8;
+    width: 247px;
+  height: 244px;
+
+}
+.trend_image img{
+  max-width: 100%;
+  height: auto;
+}
+.trend_item{
+  flex: 1 1 250px;  
+  height: 350px;
+  text-align: center;
+   max-width: 270px;
+  height: 350px;
+}
+.trend_info h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #151875;
+  margin: 15px 0 8px;
+}
+.trend_info .new{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #151875;
+}
+.trend_info .old{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #8A8FB9;
+  text-decoration: line-through;
+  margin-left: 6px;
+}
+.treding_title{
+      font-family: 'Josefin Sans', sans-serif;
+font-size: 32px;
+color:#151875;
+}
